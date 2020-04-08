@@ -85,7 +85,7 @@ ul {
 }
 
 li {
-    line-height: 2.6rem;
+    line-height: 2.7rem;
 }
 
 a {
@@ -107,7 +107,8 @@ a:hover {
 }
 
 footer {
-    margin-top: 10rem;
+    float: right;
+    margin-top: 1rem;
     margin-bottom: .5rem;
 }
 
