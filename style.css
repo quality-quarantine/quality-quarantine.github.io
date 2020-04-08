@@ -85,18 +85,28 @@ ul {
 }
 
 ul > ul {
-    padding-left: 1rem;
+    padding-left: .25rem;
 }
 
-/* ul > ul li {
-    display: inline;
-} */
+ul > ul li::before {
+    content: "☞";
+    color: #fff;
+    margin-right: .5rem;
+    text-shadow:
+       3px 3px 0 #000,
+     -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+}
+
 
 li {
     line-height: 2.7rem;
 }
 
-a {
+a,
+span {
     font-family: 'Calistoga', cursive;
     color: #222;
     text-decoration: none;
