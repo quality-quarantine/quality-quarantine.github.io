@@ -105,7 +105,7 @@ li {
     line-height: 2.7rem;
 }
 
-a,
+a:link,
 span {
     font-family: 'Calistoga', cursive;
     color: #222;
@@ -119,6 +119,8 @@ span {
     padding: .5rem;
     background: #fff;
 }
+
+a:visited { color: #222; }
 
 a:hover {
     outline: 5px solid #000;
