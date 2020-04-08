@@ -15,6 +15,10 @@ nav {
     line-height: 2.7rem;
 }
 
+nav a:hover {
+    cursor: pointer;
+}
+
 hr { border: 1px dashed #fff; }
 
 h1 {
@@ -95,7 +99,6 @@ a {
        1px 1px 0 #000;
     padding: .5rem;
     background: #222;
-    text-shadow: 1px 1px 0px #000;
 }
 
 a:hover {
@@ -105,5 +108,48 @@ a:hover {
 
 footer {
     margin-top: 10rem;
-    font-size: .8rem;
+    margin-bottom: .5rem;
+}
+
+footer a {
+    text-decoration: none;
+    background: #FFDC00;
+}
+
+@media screen and (max-width: 640px) {
+    body {
+        font-size: 14px;
+        padding: .5rem;
+    }
+
+    nav {
+        margin-bottom: 1rem;
+    }
+    
+    h1 {
+        
+        margin: 0;
+        font-size: 2.3rem;
+    }
+
+    .subtitle {
+        margin: 0;
+    }
+    
+    h2 {
+        font-size: 1.8rem;
+        margin-top: 0;
+    }
+    h3 {
+        font-size: 1.3rem;
+        margin-top: 0;
+    }
+    h4 {
+        font-size: 1rem;
+        margin-top: 0;
+    }
+
+    article {
+        padding: .5rem;
+    }
 }
