@@ -11,6 +11,11 @@ body {
 }
 
 nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    align-content: space-around;
     margin-bottom: 3rem;
     line-height: 2.7rem;
 }
@@ -116,6 +121,7 @@ span {
       1px -1px 0 #fff,
       -1px 1px 0 #fff,
        1px 1px 0 #fff;
+    margin: .2rem;
     padding: .5rem;
     background: #fff;
 }
