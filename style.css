@@ -110,7 +110,8 @@ li {
 }
 
 a:link,
-span {
+span
+aside a {
     font-family: 'Calistoga', cursive;
     color: #222;
     text-decoration: none;
@@ -148,10 +149,11 @@ span.free {
 footer {
     float: right;
     margin-top: 1rem;
-    margin-bottom: .5rem;
+    margin-bottom: 2rem;
 }
 
-footer a {
+footer a,
+aside a {
     background: #FFDC00;
 }
 
