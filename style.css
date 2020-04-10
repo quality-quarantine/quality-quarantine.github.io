@@ -110,7 +110,7 @@ li {
 }
 
 a:link,
-span
+span,
 aside a {
     font-family: 'Calistoga', cursive;
     color: #222;
